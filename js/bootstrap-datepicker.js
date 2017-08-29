@@ -483,6 +483,7 @@
 			if (!this.isInline)
 				this.picker.appendTo(this.o.container);
 			this.place();
+		  this.showMode(null);
 			this.picker.show();
 			this._attachSecondaryEvents();
 			this._trigger('show');
